@@ -13,8 +13,8 @@
   when: ansible_os_family == 'Debian'
 
 - name: Create sqlite directory.
-  file: path={{ sqlite_dir }} owner={{ ansible_user_id }} group={{ ansible_user_id }} mode=0755
+  file: path={{ sqlite_dir }} owner={{ ansible_user_id }} group={{ ansible_user_id }} mode=0755 state=directory
 
 - name: Create sqlite dbs
-  file: name={{ sqlite_dir }}/{{ item }} owner={{ ansible_user_id }} group={{ ansible_user_id }} mode=0644
+  file: name={{ sqlite_dir }}/{{ item }} owner={{ ansible_user_id }} group={{ ansible_user_id }} mode=0644 state=file
   with_items: sqlite_dbs

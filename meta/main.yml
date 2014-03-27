@@ -7,4 +7,14 @@ galaxy_info:
   categories:
   - database
   - database:sql
+  platforms:
+  - name: Fedora
+    versions:
+    - all
+  - name: Ubuntu
+    versions:
+    - all
+  - name: Debian
+    versions:
+    - all
 dependencies: []

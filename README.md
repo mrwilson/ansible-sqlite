@@ -1,7 +1,7 @@
 Ansible-Sqlite
 ========
 
-An ansible role for installing sqlite, and setting up databases. Part of a [tutorial](http://probablyfine.co.uk/2014/03/25/how-to-write-an-ansible-role-for-ansible-galaxy/).
+An ansible role for installing sqlite, and setting up databases. Part of a [tutorial](http://probablyfine.co.uk/2014/03/27/how-to-write-an-ansible-role-for-ansible-galaxy/).
 
 Role Variables
 --------------
